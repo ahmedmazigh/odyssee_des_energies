@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>L’Odyssée des Énergies - Musée Virtuel</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+        <a href="index_updated.html" class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
+            <h2 class="m-0 text-primary">L’Odyssée des Énergies</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index_updated.html" class="nav-item nav-link active">Musée Virtuel</a>
+                <a href="team.html" class="nav-item nav-link">L'equipe</a>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="musee.html" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Explorer le musée<i class="fa fa-arrow-right ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+<div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="owl-carousel header-carousel position-relative">
+
+        <!-- Slide 1 - Éveil écologique -->
+        <div class="owl-carousel-item position-relative" data-dot="<img src='img/solaire.png'>">
+            <img class="img-fluid" src="img/solaire.png" alt="énergies renouvelables">
+            <div class="owl-carousel-inner">
+                <div class="container">
+                    <div class="row justify-content-start">
+                        <div class="col-10 col-lg-8">
+                            <h1 class="display-2 text-white animated slideInDown">Bienvenue dans l’Odyssée des Énergies</h1>
+                            <p class="fs-5 fw-medium text-white mb-4 pb-3">Un voyage immersif pour découvrir les énergies propres et comprendre notre pouvoir d’agir pour la planète.</p>
+                            <a href="#projet" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Explorer le musée</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2 - Innovations et avenir -->
+        <div class="owl-carousel-item position-relative" data-dot="<img src='img/carousel-2.jpg'>">
+            <img class="img-fluid" src="img/carousel-2.jpg" alt="innovation énergétique">
+            <div class="owl-carousel-inner">
+                <div class="container">
+                    <div class="row justify-content-start">
+                        <div class="col-10 col-lg-8">
+                            <h1 class="display-2 text-white animated slideInDown">Des solutions innovantes pour demain</h1>
+                            <p class="fs-5 fw-medium text-white mb-4 pb-3">Explore les technologies vertes, les énergies renouvelables et les alternatives aux énergies fossiles.</p>
+                            <a href="#technologies" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Voir les solutions</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3 - Agir ensemble -->
+        <div class="owl-carousel-item position-relative" data-dot="<img src='img/carousel-3.jpg'>">
+            <img class="img-fluid" src="img/carousel-3.jpg" alt="actions écologiques">
+            <div class="owl-carousel-inner">
+                <div class="container">
+                    <div class="row justify-content-start">
+                        <div class="col-10 col-lg-8">
+                            <h1 class="display-2 text-white animated slideInDown">Agir pour un futur durable</h1>
+                            <p class="fs-5 fw-medium text-white mb-4 pb-3">Sensibilise-toi, joue, apprends… et deviens acteur du changement à travers une expérience interactive.</p>
+                            <a href="#actions" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Passer à l’action</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- Carousel End -->
+
+
+
+<!-- Feature Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                <div class="d-flex align-items-center mb-4">
+                    <div class="btn-lg-square bg-primary rounded-circle me-3">
+                        <i class="fa fa-user-graduate text-white"></i>
+                    </div>
+                    <h1 class="mb-0" data-toggle="counter-up">10245</h1>
+                </div>
+                <h5 class="mb-3">Étudiants Inspirés</h5>
+                <span>Des milliers d'apprenants ont découvert les énergies renouvelables avec nous.</span>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                <div class="d-flex align-items-center mb-4">
+                    <div class="btn-lg-square bg-primary rounded-circle me-3">
+                        <i class="fa fa-flask text-white"></i>
+                    </div>
+                    <h1 class="mb-0" data-toggle="counter-up">578</h1>
+                </div>
+                <h5 class="mb-3">Projets Scientifiques</h5>
+                <span>Projets menés autour du solaire, de l’éolien, et de la transition verte.</span>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                <div class="d-flex align-items-center mb-4">
+                    <div class="btn-lg-square bg-primary rounded-circle me-3">
+                        <i class="fa fa-star text-white"></i>
+                    </div>
+                    <h1 class="mb-0" data-toggle="counter-up">42</h1>
+                </div>
+                <h5 class="mb-3">Distinctions & Prix</h5>
+                <span>Reconnus pour notre impact éducatif et notre engagement durable.</span>
+            </div>
+            <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                <div class="d-flex align-items-center mb-4">
+                    <div class="btn-lg-square bg-primary rounded-circle me-3">
+                        <i class="fa fa-chart-line text-white"></i>
+                    </div>
+                    <h1 class="mb-0" data-toggle="counter-up">13421</h1>
+                </div>
+                <h5 class="mb-3">Visiteurs Uniques</h5>
+                <span>Notre plateforme attire des curieux du monde entier chaque jour.</span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Feature End -->
+
+
+
+ <!-- About Start -->
+<div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+    <div class="container about px-lg-0">
+        <div class="row g-0 mx-lg-0">
+            <div class="col-lg-6 ps-lg-0 wow fadeIn" data-wow-delay="0.1s" style="min-height: 400px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute img-fluid w-100 h-100" src="img/musee_virtuel.png" style="object-fit: cover;" alt="Musée Virtuel Futuriste">
+                </div>
+            </div>
+            <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                <div class="p-lg-5 pe-lg-0">
+                    <h6 class="text-primary">À propos</h6>
+                    <h1 class="mb-4">Découvrez le futur des énergies renouvelables</h1>
+                    <p>Bienvenue dans notre musée virtuel futuriste, un espace immersif dédié à la sensibilisation et à l’éducation autour des énergies propres. Explorez des expositions interactives sur les panneaux solaires, les éoliennes, les barrages hydroélectriques et les technologies vertes à travers des écrans tactiles et des hologrammes en 3D.</p>
+                    <p><i class="fa fa-check-circle text-primary me-3"></i>Expériences interactives basées sur l’IA et la réalité augmentée</p>
+                    <p><i class="fa fa-check-circle text-primary me-3"></i>Architecture éco-consciente avec intégration végétale</p>
+                    <p><i class="fa fa-check-circle text-primary me-3"></i>Une pédagogie innovante pour les citoyens de demain</p>
+                    <a href="#" class="btn btn-primary rounded-pill py-3 px-5 mt-3">Explorer le musée</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+
+
+ <!-- Service Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <h6 class="text-primary">Nos salles</h6>
+            <h1 class="mb-4">Explorer chaque salle de notre musée des énergies renouvelables !</h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item rounded overflow-hidden">
+                    <img class="img-fluid" src="img/img-600x400-1.jpg" alt="Panneaux solaires">
+                    <div class="position-relative p-4 pt-0">
+                        <div class="service-icon">
+                            <i class="fa fa-solar-panel fa-3x"></i>
+                        </div>
+                        <h4 class="mb-3">Panneaux Solaires</h4>
+                        <p>Découvrez l'énergie solaire, une source d'énergie propre et renouvelable qui transforme la lumière du soleil en électricité grâce aux panneaux solaires.</p>
+                        <a class="small fw-medium" href="">En savoir plus<i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item rounded overflow-hidden">
+                    <img class="img-fluid" src="img/img-600x400-2.jpg" alt="Éoliennes">
+                    <div class="position-relative p-4 pt-0">
+                        <div class="service-icon">
+                            <i class="fa fa-wind fa-3x"></i>
+                        </div>
+                        <h4 class="mb-3">Éoliennes</h4>
+                        <p>Les éoliennes utilisent la force du vent pour produire de l'électricité, contribuant à la réduction des émissions de gaz à effet de serre.</p>
+                        <a class="small fw-medium" href="">En savoir plus<i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item rounded overflow-hidden">
+                    <img class="img-fluid" src="img/img-600x400-3.jpg" alt="Centrales Hydroélectriques">
+                    <div class="position-relative p-4 pt-0">
+                        <div class="service-icon">
+                            <i class="fa fa-lightbulb fa-3x"></i>
+                        </div>
+                        <h4 class="mb-3">Centrales Hydroélectriques</h4>
+                        <p>L'énergie hydraulique utilise la force de l'eau en mouvement pour produire de l'électricité, une méthode ancienne mais efficace de génération d'énergie.</p>
+                        <a class="small fw-medium" href="">En savoir plus<i class="fa fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Service End -->
+
+<!-- Projects Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <h6 class="text-primary">Projets Tunisiens</h6>
+            <h1 class="mb-4">Découvrez les Derniers Projets en Énergie Renouvelable en Tunisie</h1>
+        </div>
+        <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="col-12 text-center">
+                <ul class="list-inline mb-5" id="portfolio-flters">
+                    <li class="mx-2 active" data-filter="*">Tous</li>
+                    <li class="mx-2" data-filter=".first">Panneaux Solaires</li>
+                    <li class="mx-2" data-filter=".second">Éoliennes</li>
+                    <li class="mx-2" data-filter=".third">Centrales Hydroélectriques</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.5s">
+            <!-- Solar Panels Project -->
+            <div class="col-lg-4 col-md-6 portfolio-item first">
+                <div class="portfolio-img rounded overflow-hidden">
+                    <img class="img-fluid" src="https://lapresse.tn/wp-content/uploads/2024/05/FB_IMG_1715201019866.jpg" alt="" style="height: 250px; object-fit: cover;">
+                    <div class="portfolio-btn">
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="pt-3">
+                    <p class="text-primary mb-0">Panneaux Solaires</p>
+                    <hr class="text-primary w-25 my-2">
+                    <h5 class="lh-base">Centrale solaire de Kairouan (120 MWc)</h5>
+                    <p>Développé par AMEA Power, ce projet produit 222 GWh par an, alimentant plus de 43 000 foyers et réduisant les émissions de CO₂ de 117 000 tonnes.</p>
+                </div>
+            </div>
+
+            <!-- Wind Turbines Project -->
+            <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="portfolio-img rounded overflow-hidden">
+                    <img class="img-fluid" src="img/img-600x400-2.jpg" alt="" style="height: 250px; object-fit: cover;">
+                    <div class="portfolio-btn">
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="pt-3">
+                    <p class="text-primary mb-0">Éoliennes</p>
+                    <hr class="text-primary w-25 my-2">
+                    <h5 class="lh-base">Parc éolien de Mornag (30 MW)</h5>
+                    <p>Ce parc éolien près de Tunis utilise des turbines Siemens Gamesa et aide à diversifier le mix énergétique de la Tunisie.</p>
+                </div>
+            </div>
+
+            <!-- Hydropower Plants Project -->
+            <div class="col-lg-4 col-md-6 portfolio-item third">
+                <div class="portfolio-img rounded overflow-hidden">
+                    <img class="img-fluid" src="https://onlineengineering.in/wp-content/uploads/2024/03/components-of-hydropower-plant.webp" alt="" style="height: 250px; object-fit: cover;">
+                    <div class="portfolio-btn">
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="pt-3">
+                    <p class="text-primary mb-0">Centrales Hydroélectriques</p>
+                    <hr class="text-primary w-25 my-2">
+                    <h5 class="lh-base">Centrales Hydroélectriques de Sidi Bouzid et Gafsa</h5>
+                    <p>Ces projets en Tunisie font partie intégrante de la stratégie énergétique du pays, contribuant à hauteur de 298 MW grâce à l'hydroélectricité.</p>
+                </div>
+            </div>
+
+            <!-- Additional Solar Panel Project -->
+            <div class="col-lg-4 col-md-6 portfolio-item first">
+                <div class="portfolio-img rounded overflow-hidden">
+                    <img class="img-fluid" src="https://y9y3y5n3.delivery.rocketcdn.me/wp-content/uploads/2023/09/champ-photovoltaique-1024x576.jpg" alt="" style="height: 250px; object-fit: cover;">
+                    <div class="portfolio-btn">
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="pt-3">
+                    <p class="text-primary mb-0">Panneaux Solaires</p>
+                    <hr class="text-primary w-25 my-2">
+                    <h5 class="lh-base">Fermes photovoltaïques à Feriana et Gabès</h5>
+                    <p>En partenariat avec Mazarine Energy, Qair a lancé des fermes photovoltaïques dans ces régions, contribuant aux besoins énergétiques locaux.</p>
+                </div>
+            </div>
+
+            <!-- Additional Wind Turbine Project -->
+            <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="portfolio-img rounded overflow-hidden">
+                    <img class="img-fluid" src="https://kapitalis.com/tunisie/wp-content/uploads/2024/05/Voltalia.jpg" alt="" style="height: 250px; object-fit: cover;">
+                    <div class="portfolio-btn">
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="pt-3">
+                    <p class="text-primary mb-0">Éoliennes</p>
+                    <hr class="text-primary w-25 my-2">
+                    <h5 class="lh-base">Projets à Sidi Bouzid et Gafsa</h5>
+                    <p>Ces projets éoliens contribuent de manière significative à la transition énergétique de la Tunisie, totalisant 298 MW.</p>
+                </div>
+            </div>
+
+            <!-- Additional Hydropower Plant Project -->
+            <div class="col-lg-4 col-md-6 portfolio-item third">
+                <div class="portfolio-img rounded overflow-hidden">
+                    <img class="img-fluid" src="https://cdn2.webmanagercenter.com/wmc/wp-content/uploads/2024/07/barrages-tunisie-wmc.jpg" alt="" style="height: 250px; object-fit: cover;">
+                    <div class="portfolio-btn">
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="pt-3">
+                    <p class="text-primary mb-0">Centrales Hydroélectriques</p>
+                    <hr class="text-primary w-25 my-2">
+                    <h5 class="lh-base">Projets Hydroélectriques en Tunisie</h5>
+                    <p>Des centrales hydroélectriques importantes comme celles de Sidi Bouzid et Gafsa sont cruciales pour améliorer le réseau d'énergie renouvelable en Tunisie.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Projects End -->
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="text-primary">Team Member</h6>
+                <h1 class="mb-4">Experienced Team Members</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item rounded overflow-hidden">
+                        <div class="d-flex">
+                            <img class="img-fluid w-75" src="img/team-1.jpg" alt="">
+                            <div class="team-social w-25">
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h5>Full Name</h5>
+                            <span>Designation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item rounded overflow-hidden">
+                        <div class="d-flex">
+                            <img class="img-fluid w-75" src="img/team-2.jpg" alt="">
+                            <div class="team-social w-25">
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h5>Full Name</h5>
+                            <span>Designation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item rounded overflow-hidden">
+                        <div class="d-flex">
+                            <img class="img-fluid w-75" src="img/team-3.jpg" alt="">
+                            <div class="team-social w-25">
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-lg-square btn-outline-primary rounded-circle mt-3" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h5>Full Name</h5>
+                            <span>Designation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Témoignages Début -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <h6 class="text-primary">Avis Clients</h6>
+            <h1 class="mb-4">Ils parlent de nous !</h1>
+        </div>
+        <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+            <div class="testimonial-item text-center">
+                <div class="testimonial-img position-relative">
+                    <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-1.jpg">
+                    <div class="btn-square bg-primary rounded-circle">
+                        <i class="fa fa-quote-left text-white"></i>
+                    </div>
+                </div>
+                <div class="testimonial-text text-center rounded p-4">
+                    <p>Franchement, service impeccable. L’équipe est réactive w très professionnelle. Merci pour votre sérieux !</p>
+                    <h5 class="mb-1">Aymen B.</h5>
+                    <span class="fst-italic">Entrepreneur à Sfax</span>
+                </div>
+            </div>
+            <div class="testimonial-item text-center">
+                <div class="testimonial-img position-relative">
+                    <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-2.jpg">
+                    <div class="btn-square bg-primary rounded-circle">
+                        <i class="fa fa-quote-left text-white"></i>
+                    </div>
+                </div>
+                <div class="testimonial-text text-center rounded p-4">
+                    <p>J’étais un peu sceptique au début, mais j’ai été agréablement surpris. Chapeau l’équipe ! Tawa je recommande à mes collègues.</p>
+                    <h5 class="mb-1">Nour H.</h5>
+                    <span class="fst-italic">Consultante IT</span>
+                </div>
+            </div>
+            <div class="testimonial-item text-center">
+                <div class="testimonial-img position-relative">
+                    <img class="img-fluid rounded-circle mx-auto mb-5" src="img/testimonial-3.jpg">
+                    <div class="btn-square bg-primary rounded-circle">
+                        <i class="fa fa-quote-left text-white"></i>
+                    </div>
+                </div>
+                <div class="testimonial-text text-center rounded p-4">
+                    <p>Service rapide, équipe à l’écoute, w qualité top. Wallahi je suis très satisfait.</p>
+                    <h5 class="mb-1">Rania K.</h5>
+                    <span class="fst-italic">Responsable Marketing</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Témoignages Fin -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
